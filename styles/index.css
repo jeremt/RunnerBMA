@@ -1,0 +1,21 @@
+
+@import url('gui.css');
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #eee;
+}
+
+#score, #lifes {
+  color: #3b3b3b;
+  text-shadow: text-shadow: 0em 0.05em #ccc;
+  font-size: 4em;
+  font-family: 'Oswald', sans-serif;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+}
+
+#score { left: 0; }
+#lifes { right: 0; }
